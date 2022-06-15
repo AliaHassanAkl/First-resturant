@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clr{ 
+    clear :both;
+}
+#home{
+    /* height: 50%; */
+    }
+#home .navbar {
+    background-color: rgb(0, 0,0,0.5)
+    }
+#home .navbar .tools {
+    float: right; 
+}
+#home .navbar .tools ul {
+    list-style-type: none; 
+    margin-right: 10px;
+}
+#home .navbar .tools li {
+    float: left;
+    padding: 10px;
+}
+#home .navbar .tools a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar .logo {
+
+    float: left;
+}
+.logo img {
+    width: 40px;
+    padding: 10px;
+}
+/* .container{
+    background-color: black;
+    height: 20px;
+} */
+#home .caption {
+    color: #fff;
+    background-size: 100% 100%;
+    background-image: url(images/resturant.jpeg);
+    text-align: center;
+    padding: 20px ;
+}
+#home .caption img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+#home .caption button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10% ;
+}
+.but1 {
+    background-color: brown ;
+}
+.but2 {
+    background-color: #fff;
+}
+#about{
+    background-color: #fff;
+}
+#about .chef{
+    float: left;
+    width: 40%;
+}
+#about .chef img{
+  width: 100%;
+}
+#about .discription {
+    width: 60%;
+    float: right;
+   padding: 80 px;
+    text-align: center;
+    margin-top: 80px;
+}
+.discription p {
+    padding: 20px;
+    line-height: 20px;
+}
+.discription button {
+    border-color: #000;
+    border-radius: 3px;
+    padding: 10px;
+    border-style:solid ;
+    background-color: #fff;
+    margin-bottom:20px ;
+}
+#meals {
+    padding: 50px 0px;
+}
+#meals .meal {
+    width: 25%;
+    float: left;
+    text-align: center;
+    /* margin: 15px; */
+}
+.meal img{
+    width: 80%;
+    text-align: center;
+    border-radius: 50%;   
+}
+.meal p {
+    font-size:small ;
+}
+.meal hr{
+    width: 50%;
+    height: 3px;
+    color: chartreuse;
+    background-color: chartreuse;
+    margin: 0 70px ;
+}
+#overlay {
+    background-image: url(images/resturant.jpeg);
+    height: 200px;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
